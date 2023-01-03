@@ -16,6 +16,7 @@
 		0675470D2964B3B800074AE3 /* ProfileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0675470C2964B3B800074AE3 /* ProfileEntity.swift */; };
 		067547102964B4CD00074AE3 /* KeychainSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 0675470F2964B4CD00074AE3 /* KeychainSwift */; };
 		067547132964B4DB00074AE3 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 067547122964B4DB00074AE3 /* Alamofire */; };
+		067547162964B56400074AE3 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067547152964B56400074AE3 /* KeychainHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		067547062964B1C400074AE3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		0675470A2964B38100074AE3 /* ProfileResultEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileResultEntry.swift; sourceTree = "<group>"; };
 		0675470C2964B3B800074AE3 /* ProfileEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEntity.swift; sourceTree = "<group>"; };
+		067547152964B56400074AE3 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		066F91152964AFE700CF08FF /* pilot-ss */ = {
 			isa = PBXGroup;
 			children = (
+				067547142964B50500074AE3 /* Keychain */,
 				067547032964B19600074AE3 /* Model */,
 				066F91162964AFE700CF08FF /* pilot_ssApp.swift */,
 				066F91182964AFE700CF08FF /* ContentView.swift */,
@@ -102,6 +105,14 @@
 				0675470C2964B3B800074AE3 /* ProfileEntity.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		067547142964B50500074AE3 /* Keychain */ = {
+			isa = PBXGroup;
+			children = (
+				067547152964B56400074AE3 /* KeychainHelper.swift */,
+			);
+			path = Keychain;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0675470D2964B3B800074AE3 /* ProfileEntity.swift in Sources */,
+				067547162964B56400074AE3 /* KeychainHelper.swift in Sources */,
 				066F91192964AFE700CF08FF /* ContentView.swift in Sources */,
 				0675470B2964B38100074AE3 /* ProfileResultEntry.swift in Sources */,
 				066F91172964AFE700CF08FF /* pilot_ssApp.swift in Sources */,
