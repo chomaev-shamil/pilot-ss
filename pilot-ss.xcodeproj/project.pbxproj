@@ -11,6 +11,7 @@
 		066F91192964AFE700CF08FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 066F91182964AFE700CF08FF /* ContentView.swift */; };
 		066F911B2964AFE900CF08FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 066F911A2964AFE900CF08FF /* Assets.xcassets */; };
 		066F911E2964AFE900CF08FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 066F911D2964AFE900CF08FF /* Preview Assets.xcassets */; };
+		067547072964B1C400074AE3 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067547062964B1C400074AE3 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		066F91182964AFE700CF08FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		066F911A2964AFE900CF08FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		066F911D2964AFE900CF08FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		067547062964B1C400074AE3 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +53,12 @@
 		066F91152964AFE700CF08FF /* pilot-ss */ = {
 			isa = PBXGroup;
 			children = (
+				067547032964B19600074AE3 /* Model */,
 				066F91162964AFE700CF08FF /* pilot_ssApp.swift */,
 				066F91182964AFE700CF08FF /* ContentView.swift */,
 				066F911A2964AFE900CF08FF /* Assets.xcassets */,
 				066F911C2964AFE900CF08FF /* Preview Content */,
+				067547062964B1C400074AE3 /* Constants.swift */,
 			);
 			path = "pilot-ss";
 			sourceTree = "<group>";
@@ -65,6 +69,29 @@
 				066F911D2964AFE900CF08FF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		067547032964B19600074AE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				067547052964B1A900074AE3 /* Entity */,
+				067547042964B1A000074AE3 /* Entry */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		067547042964B1A000074AE3 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		067547052964B1A900074AE3 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +166,7 @@
 			files = (
 				066F91192964AFE700CF08FF /* ContentView.swift in Sources */,
 				066F91172964AFE700CF08FF /* pilot_ssApp.swift in Sources */,
+				067547072964B1C400074AE3 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
